@@ -21,9 +21,10 @@ class String
       self.split("!")
     elsif self.sentence?
       self.split(".")
-          binding.pry
-
+    
     
     end
+          binding.pry
+
   end
 end
