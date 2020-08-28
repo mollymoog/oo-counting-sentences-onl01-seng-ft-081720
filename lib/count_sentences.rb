@@ -18,9 +18,9 @@ class String
     if self.question?
       puts self.split("?")
     elsif self.exclamation?("!")
-      self.split("!")
+      puts self.split("!")
     elsif self.sentence?
-      self.split(".")
+      puts self.split(".")
     
     
     end
