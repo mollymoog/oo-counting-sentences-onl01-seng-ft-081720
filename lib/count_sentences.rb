@@ -18,6 +18,7 @@ class String
     self.split("."||"?"||"!").delete_if do |character|
       character < 2 
       binding.pry
+    end
 
   end
 end
